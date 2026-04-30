@@ -1,4 +1,3 @@
-
 # 🎓 Student Performance Prediction (ML + Streamlit)
 
 ## 🚀 Live Demo
@@ -16,20 +15,49 @@ It also provides:
 * 📊 Real-time analytics
 * ⚠️ Risk level detection
 * 📈 Data visualization
-* 📂 Batch processing via CSV
+* 📂 Batch processing via CSV (Class-level analysis)
 
 ---
 
 ## 🧠 Features
 
-* 🔹 **Single Prediction** (Enter scores manually)
-* 🔹 **Batch Analysis** (Upload CSV file)
-* 🔹 **AI Confidence Score**
-* 🔹 **Risk Level Detection (Low / Medium / High)**
-* 🔹 **Radar Chart Visualization**
-* 🔹 **Custom Pass Threshold**
-* 🔹 **Download Results**
-* 🔹 **Clean & Interactive UI**
+### 🎯 Single Prediction
+
+* Predict PASS/FAIL using ML model
+* AI Confidence score
+* Risk level detection (Low / Medium / High)
+* Radar chart visualization
+* Personalized feedback
+
+---
+
+### 📂 Batch Intelligence (🚀 Advanced Feature)
+
+* Upload CSV file of multiple students
+* Automatic column detection (no strict format required)
+* Class-level performance analysis
+* Identify weak students instantly
+* Subject-wise weakness detection
+* Highlight students needing intervention
+* Clean tab-based reporting system
+
+---
+
+### 📊 Analytics & Insights
+
+* Average score calculation
+* Weakness detection engine
+* Real-time data processing
+* Smart recommendations
+
+---
+
+### 💡 Smart Features
+
+* Handles missing **"Name" column automatically**
+* Works with flexible CSV formats
+* Interactive UI with clean design
+* Download processed results
 
 ---
 
@@ -80,18 +108,20 @@ streamlit run app.py
 
   * ✅ PASS
   * ❌ FAIL
-* Shows:
+* Provides:
 
   * Confidence %
   * Risk Level
   * Performance Insights
+  * Batch-level analytics
 
 ---
 
 ## 🎯 Use Case
 
 * Early identification of **at-risk students**
-* Helps teachers & students in **decision making**
+* Classroom-level performance analysis
+* Helps teachers in **intervention planning**
 * Useful for **education analytics systems**
 
 ---
